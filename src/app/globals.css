@@ -2,32 +2,83 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.card {
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  transition: all 0.2s;
+  position: relative;
+  cursor: pointer;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.card-inner {
+  width: 100%; 
+  height: inherit;
+  background: rgba(255,255,255,.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  border-radius: 8px;
+}
+
+
+
+.circle {
+  width: 220px;
+  height: 220px;
+  background: radial-gradient(#f1f3ff, #beb6de);
+  border-radius: 50%;
+  position: absolute;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.circle:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+
+.circle:nth-child(2) {
+  bottom: -25px;
+  right: -25px;
+  animation-name: move-down1;
+}
+
+.circle:nth-child(3) {
+  top: 200px;
+  left: 80px;
+ 
+}
+
+.circle:nth-child(4) {
+  top: 35px;
+  left: 170px;
+  animation-name: move-down1;
+}
+
+.circle:nth-child(5) {
+  top: 400px;
+  left: 30px;
+  
+}
+
+.circle:nth-child(6) {
+  top: 330px;
+  left: 180px;
+  animation-name: move-down1;
+}
+
+.circle:nth-child(7) {
+  top: -65px;
+  left: 100px;
+  
+}
+
+@keyframes move-up6 {
+  to {
+    transform: translateY(-10px);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@keyframes move-down1 {
+  to {
+    transform: translateY(10px);
   }
 }
