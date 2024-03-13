@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -17,7 +18,7 @@ export default function About() {
           </p>
         </div>
 
-        <button className="bg-[#beb6de] hover:bg-[#362966] rounded-full py-3 px-36">Start</button>
+        <Link href="/skinkind" className="bg-[#beb6de] hover:bg-[#362966] rounded-full py-3 px-36">Start</Link>
       </div>
     </main>
   );
