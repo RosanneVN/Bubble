@@ -72,7 +72,7 @@ export default function skinKind() {
       </section>
       <div className="flex justify-center items-center">
         <Link
-          href="/problems"
+          href="/sensitiveskin"
           className="bg-[#beb6de] hover:bg-[#362966] rounded-full py-3 px-36"
         >
           Next
