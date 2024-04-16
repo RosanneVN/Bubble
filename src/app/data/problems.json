@@ -1,0 +1,22 @@
+{
+  "problems": [
+    { "name": "Acne", 
+    "img": "/icons/acne.png" },
+     {"name": "Swollen Acne", 
+     "img": "/icons/acne-inflamado.png"},
+     { "name": "Wrinkles", 
+    "img": "/icons/arruga.png" },
+    { "name": "post-acne scars", 
+    "img": "/icons/cicatriz.png" },
+    { "name": "deshidratation", 
+    "img": "/icons/deshidratacion.png" },
+    { "name": "blackheads", 
+    "img": "/icons/puntos-negros.png" },
+    { "name": "hyperpigmentation", 
+    "img": "/icons/hiperpigmentacion.png" },
+    { "name": "dark circles", 
+    "img": "/icons/ojeras.png" },
+    { "name": "enlarged pores", 
+    "img": "/icons/poros-dilatados.png" }
+    ]
+}
