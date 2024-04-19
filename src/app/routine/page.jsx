@@ -1,15 +1,10 @@
 import Link from "next/link";
+import BackButton from "../components/buttons/BackButton";
 
 export default function MyRoutine() {
   return (
     <main className="flex flex-col w-full h-[100vh]">
-      <section className="flex flex-row w-full min-h-5 px-5 mt-5  relative">
-        <div className="w-6 h-6 absolute top-0">
-          <Link href="/problems">
-            <img src="/icons/atras.png" alt="" />
-          </Link>
-        </div>
-      </section>
+      <BackButton url={"/problems"}></BackButton>
       <section className="flex flex-col w-full"></section>
       <section className="flex flex-col w-full h-[95vh] gap-8 ">
         <p className="text-center">Your routine:</p>
