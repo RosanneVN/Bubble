@@ -1,8 +1,9 @@
-{
-  "skinKind": [
+   [
     { "name": "seca", "img": "/icons/piel-seca.png" },
-    { "name": "grasa", "img": "/icons/piel-seca.png" },
+    { "name": "grasa", "img": "/icons/piel-grasa.png" },
     { "name": "normal", "img": "/icons/normal.png" },
     { "name": "mixta", "img": "/icons/t.png" }
-  ]
-}
+   ]
+    
+  
+
