@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
+import NextButton from "../components/buttons/NextButton";
 
 export default function About() {
   return (
@@ -25,17 +26,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      <section className="flex justify-center items-center">
-        <div
-          className="flex flex-row justify-center items-center my-6 bg-[#beb6de] hover:bg-[#362966] 
-         w-[90%] rounded-full gap-3 py-3"
-        >
-          <Link href="/skinkind" className=" font-semibold text-center">
-            Next
-          </Link>
-          <img className="w-5 h-5" src="/icons/next.png" alt="" />
-        </div>
-      </section>
+      <NextButton url={"/skinkind"}></NextButton>
     </main>
   );
 }

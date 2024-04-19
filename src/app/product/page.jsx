@@ -1,19 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
+import BackButton from "../components/buttons/BackButton";
 
 export default function Product() {
   return (
     <main className="w-full h-[100vh] flex flex-col ">
-      <section className="flex flex-row w-full h-10 px-5 mt-5  relative">
-        <div className="w-6 h-6 absolute top-2">
-          <Link href="/routine">
-            <img src="/icons/atras.png" alt="" />
-          </Link>
-        </div>
-        <div className=" h-6 absolute left-32 top-2">
+      <section className="relative">
+      <BackButton url={"/routine"}></BackButton>
+      <div className=" h-6 absolute left-32 top-2">
           <p className="text-xl font-semibold">Nombre Producto</p>
         </div>
       </section>
+      
       <section className="flex justify-center items-center w-full h-52 ">
         <div className="bg-[#beb6de] justify-center items-center rounded-[50%] h-44 w-44">
           {""}
