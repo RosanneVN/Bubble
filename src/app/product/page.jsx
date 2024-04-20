@@ -1,17 +1,23 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import BackButton from "../components/buttons/BackButton";
+import Details from "../components/information/Details";
+import Ingredients from "../components/information/Ingredients";
+import HowToUse from "../components/information/HowToUse";
 
 export default function Product() {
+c
+
   return (
     <main className="w-full h-[100vh] flex flex-col ">
-      <section className="relative">
-      <BackButton url={"/routine"}></BackButton>
-      <div className=" h-6 absolute left-32 top-2">
+
+      <section className=" w-full flex justify-center items-center relative h-16">
+        <BackButton url={"/routine"}></BackButton>
+        <div className=" h-6 absolute left-24 top-7">
           <p className="text-xl font-semibold">Nombre Producto</p>
         </div>
       </section>
-      
+
       <section className="flex justify-center items-center w-full h-52 ">
         <div className="bg-[#beb6de] justify-center items-center rounded-[50%] h-44 w-44">
           {""}
@@ -25,27 +31,7 @@ export default function Product() {
           <button>HOW TO USE</button>
         </div>
 
-        <div className="flex flex-col gap-3">
-          <div className=" flex flex-row justify-between mx-6">
-            <div className="flex flex-row justify-center items-center gap-1">
-              <img className="w-4 h-4" src="/icons/estrella.png" alt="" />
-              <p>4.8(212 Reviews)</p>
-            </div>
-            <div>
-              <p className="font-bold">$48</p>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-3 mx-6">
-            <p>About the product:</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              quis at quos adipisci delectus molestiae assumenda veritatis
-              labore, incidunt nesciunt. Magnam cupiditate cum, officiis culpa
-              consequatur deserunt iste autem odio.
-            </p>
-          </div>
-        </div>
+       <Details></Details>
       </section>
 
       <section className="flex justify-center items-center">
