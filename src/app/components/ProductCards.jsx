@@ -5,7 +5,7 @@ export default function ProductCards() {
     <>
       {" "}
       <section className="flex flex-col w-full h-72 justify-center items-center gap-4 text-[#4e4c57]">
-        <p className="text-sm">Paso 1: Cleaneser</p>
+        <p className="text-sm">Paso 1: cleaner</p>
         <div className="flex flex-col w-64 h-64  rounded-lg shadow-[0px_0px_8px_-1px_rgba(190,182,222,1)] gap-4 py-5 ">
           <div className="flex flex-col justify-center items-center ">
             <Link href="/product">
