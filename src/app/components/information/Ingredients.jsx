@@ -1,14 +1,14 @@
 export default function Ingredients() {
   return (
     <>
-      <section className="flex flex-col w-full h-[40vh] px-5 gap-2">
+      <section className="flex flex-col w-full h-[35vh] px-5 gap-2">
         <div>
         
           <p className=" font-semibold">Actives:</p>
         </div>
         <div className="flex flex-col gap-2">
           <div>
-            <p className="text-[15px]">
+            <p className="text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Praesentium incidunt ullam ab, totam autem itaque voluptatum
               laboriosam sunt molestias, non vero! Nemo, aliquam dolorum.
@@ -16,7 +16,7 @@ export default function Ingredients() {
           </div>
           <div>
          
-            <p className="text-[15px]">
+            <p className="text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
               quisquam unde voluptatem, sequi quas perspiciatis non, nemo quam
               vitae veniam expedita ut optio impedit aliquam.

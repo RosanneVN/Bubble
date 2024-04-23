@@ -1,7 +1,7 @@
 export default function HowToUse() {
   return (
     <>
-      <section className="flex flex-col w-full h-[40vh] px-5 gap-2 text-[15px]">
+      <section className="flex flex-col w-full h-[35vh] px-5 gap-2 text-sm">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
           fugiat aut magni ut perferendis! Quidem id ex molestiae totam aliquid
