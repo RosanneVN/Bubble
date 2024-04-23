@@ -1,0 +1,92 @@
+{
+  "cleaner": [
+    {
+      "id": "",
+      "name": "",
+      "brand": "",
+      "url": "",
+      "price": "",
+      "img": "",
+      "ranking": "",
+      "reviews": "",
+      "description": "",
+      "ingredients": "",
+      "howToUse": ""
+    }
+  ],
+  "toner": [
+    {
+      "id": "",
+      "name": "",
+      "brand": "",
+      "url": "",
+      "price": "",
+      "img": "",
+      "ranking": "",
+      "reviews": "",
+      "description": "",
+      "ingredients": "",
+      "howToUse": ""
+    }
+  ],
+  "serum": [
+    {
+      "id": "",
+      "name": "",
+      "brand": "",
+      "url": "",
+      "price": "",
+      "img": "",
+      "ranking": "",
+      "reviews": "",
+      "description": "",
+      "ingredients": "",
+      "howToUse": ""
+    }
+  ],
+  "eyes cream": [
+    {
+      "id": "",
+      "name": "",
+      "brand": "",
+      "url": "",
+      "price": "",
+      "img": "",
+      "ranking": "",
+      "reviews": "",
+      "description": "",
+      "ingredients": "",
+      "howToUse": ""
+    }
+  ],
+  "hydrating": [
+    {
+      "id": "",
+      "name": "",
+      "brand": "",
+      "url": "",
+      "price": "",
+      "img": "",
+      "ranking": "",
+      "reviews": "",
+      "description": "",
+      "ingredients": "",
+      "howToUse": ""
+    }
+  ],
+  "sunscreen": [
+    {
+      "id": "",
+      "name": "",
+      "brand": "",
+      "url": "",
+      "price": "",
+      "img": "",
+      "ranking": "",
+      "reviews": "",
+      "description": "",
+      "ingredients": "",
+      "howToUse": ""
+    }
+  ]
+}
