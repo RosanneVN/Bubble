@@ -12,12 +12,6 @@ export default function SkinProblems() {
                 </div>
                 <div className="flex flex-row justify-center  items-center gap-1 my-1">
                   <p className="text-sm">{problem.name}</p>
-                  <img
-                    width="24"
-                    height="24"
-                    src="https://img.icons8.com/windows/32/help.png"
-                    alt="help"
-                  />
                 </div>
               </div>
             </div>
