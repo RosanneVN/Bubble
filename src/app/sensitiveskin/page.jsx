@@ -7,7 +7,7 @@ export default function SensitiveSkin() {
     <main className="w-full h-[100vh] flex flex-col">
       <BackButton url={"/skinkind"}></BackButton>
 
-      <section className="flex flex-col w-full h-[80vh] justify-center items-center gap-10">
+      <section className="flex flex-col w-full h-[80vh] justify-center items-center gap-10 text-[#4e4c57]">
         <div className="flex flex-col justify-center items-center gap-10">
           <p className="px-10">
             Dentro del tipo de piel escogido con anterioridad considera que

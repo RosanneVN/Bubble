@@ -10,7 +10,7 @@ export default function skinKind() {
     <main className="w-full h-[100vh] flex flex-col relative">
       <BackButton url={"/about"}></BackButton>
       <div className="my-2 text-center font-normal text-lg">
-        <p className="text-center font-semibold text-black">
+        <p className="text-center font-semibold text-[#4e4c57]">
           Escoge tu tipo de piel
         </p>
       </div>

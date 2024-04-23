@@ -8,9 +8,9 @@ export default function Problems() {
   return (
     <main className="w-full h-[100vh] flex flex-col">
       <BackButton url={"/sensitiveskin"}></BackButton>
-      <section>
+      <section className="text-[#4e4c57]">
         <div className="mx-4 my-4">
-          <p className="text-center font-semibold text-black">
+          <p className="text-center font-semibold">
             Which kind of skin problems do you have?
           </p>
         </div>
