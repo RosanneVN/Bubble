@@ -18,7 +18,7 @@ export default function About() {
           <h1 className="text-3xl text-[#362966] font-bold z-50 text-center ">
             Bubble
           </h1>
-          <p className="my-5">
+          <p className="my-5 text-[#4e4c57]">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor vel
             autem aperiam. Inventore, cupiditate delectus beatae dolores aliquam
             aperiam necessitatibus reiciendis laudantium dolore unde maxime

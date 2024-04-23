@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function NextButton({url}){
-  return(
+export default function NextButton({ url }) {
+  return (
     <>
-     <section className="flex justify-center items-center">
+      <section className="flex justify-center items-center ">
         <div
           className="flex flex-row justify-center items-center my-6 bg-[#beb6de] hover:bg-[#362966] 
          w-[90%] rounded-full gap-3 py-3"
@@ -15,5 +15,5 @@ export default function NextButton({url}){
         </div>
       </section>
     </>
-  )  
+  );
 }

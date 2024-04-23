@@ -4,7 +4,7 @@ export default function SkinKind() {
     <>
       <ul className="grid grid-cols-2 grid-flow-row justify-center items-center gap-4 w-full h-[75vh]">
         {skins.map((skin) => (
-          <li key={skin.name} className="flex flex-row justify-center items-center">
+          <li key={skin.name} className="flex flex-row justify-center items-center text-[#4e4c57]">
             <div className=" h-32 w-24 "> 
             <div className="h-24 w-24 p-3 bg-[#ffffff] rounded-lg shadow-[0px_0px_8px_-1px_rgba(190,182,222,1)] ">
               <img src={skin.img} alt={skin.name} />
