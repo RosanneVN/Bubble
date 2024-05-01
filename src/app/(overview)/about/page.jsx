@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
-import NextButton from "../components/buttons/NextButton";
+import NextButton from "../../components/buttons/NextButton";
 
 export default function About() {
   return (

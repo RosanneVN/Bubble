@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import Link from "next/link";
-import BackButton from "../components/buttons/BackButton";
-import Details from "../components/information/Details";
-import Ingredients from "../components/information/Ingredients";
-import HowToUse from "../components/information/HowToUse";
+import BackButton from "../../components/buttons/BackButton";
+import Details from "../../components/information/Details";
+import Ingredients from "../../components/information/Ingredients";
+import HowToUse from "../../components/information/HowToUse";
 import { useState } from "react";
 
 

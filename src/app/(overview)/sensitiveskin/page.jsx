@@ -1,6 +1,6 @@
 import Link from "next/link";
-import BackButton from "../components/buttons/BackButton";
-import NextButton from "../components/buttons/NextButton";
+import BackButton from "../../components/buttons/BackButton";
+import NextButton from "../../components/buttons/NextButton";
 
 export default function SensitiveSkin() {
   return (

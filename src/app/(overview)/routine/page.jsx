@@ -1,5 +1,5 @@
-import BackButton from "../components/buttons/BackButton";
-import ProductCards from "../components/ProductCards";
+import BackButton from "../../components/buttons/BackButton";
+import ProductCards from "../../components/ProductCards";
 
 export default function MyRoutine() {
   return (

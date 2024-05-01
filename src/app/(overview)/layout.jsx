@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,9 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div className="max-w-[1440px] m-auto">{children}</div>
-      </body>
+      <body className={inter.className }>
+        <div className=" overflow-hidden">{children}</div></body>
     </html>
   );
 }

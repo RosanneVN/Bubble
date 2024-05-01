@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import SkinProblems from "../components/buttons/SkinProblems";
-import BackButton from "../components/buttons/BackButton";
-import NextButton from "../components/buttons/NextButton";
+import SkinProblems from "../../components/buttons/SkinProblems";
+import BackButton from "../../components/buttons/BackButton";
+import NextButton from "../../components/buttons/NextButton";
 
 export default function Problems() {
   return (
