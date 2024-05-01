@@ -1,34 +1,32 @@
-"use client"
-import { useRouter } from "next/navigation";
-import React, { useEffect } from "react";
+import Link from "next/link";
 
 export default function Home() {
-  const router = useRouter();
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      // Redirigir a la página deseada
-      router.push("/about");
-    }, 5000); // 5 segundos
-
-    // Limpiar el temporizador al desmontar el componente
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
-    <main className="bg-[#e5e6e7] h-[100vh] w-full flex justify-center items-center overflow-hidden">
-      <div class="card">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="card-inner backdrop-blur-sm flex justify-center items-center">
-          <h1 className="text-3xl text-[#362966] font-bold z-50">Bubble</h1>
+    <main className="px-20 py-10 text-xl">
+      {" "}
+      <nav className="flex flex-row py-5 rounded-2xl justify-center items-center bg-[#e5e6e7]">
+        <div className="flex flex-row gap-[500px]">
+          <div className="text-4xl text-[#362966] font-bold z-50">Bubble</div>
+          <div className="flex gap-16 text-base">
+            <button className="hover:-translate-y-2 hover:text-[#beb6de]">
+              Features
+            </button>
+            <button className="hover:-translate-y-2 hover:text-[#beb6de]">
+              Screenshots
+            </button>
+            <button className="hover:-translate-y-2 hover:text-[#beb6de]">
+              Blog
+            </button>
+            <button className="hover:-translate-y-2 hover:text-[#beb6de]">
+              Contact
+            </button>
+            <button className="bg-[#beb6de] py-3 px-5 rounded-3xl hover:translate-y-1 shadow-lg">
+              Start now
+            </button>
+          </div>
         </div>
-      </div>
+      </nav>
+     
     </main>
   );
 }
