@@ -1,4 +1,5 @@
 import NavButton from "./NavButton";
+import StartButton from "./StartButton";
 export default function Nav() {
   return (
     <>
@@ -10,9 +11,7 @@ export default function Nav() {
             <NavButton buttonName={"Screenshots"}></NavButton>
             <NavButton buttonName={"Blog"}></NavButton>
             <NavButton buttonName={"Contact"}></NavButton>
-            <button className="bg-[#beb6de] py-3 px-5 rounded-3xl hover:translate-y-1 shadow-lg">
-              Start now
-            </button>
+            <StartButton></StartButton>
           </div>
         </div>
       </nav>
