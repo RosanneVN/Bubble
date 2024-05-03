@@ -1,3 +1,5 @@
+import StartButton from "./StartButton";
+
 export default function Hero() {
   return (
     <>
@@ -14,9 +16,7 @@ export default function Hero() {
               repellendus impedit tempore.
             </p>
 
-            <button className="bg-[#beb6de] py-3 px-10 rounded-3xl hover:translate-y-1 w-fit shadow-lg text-base">
-              Start now
-            </button>
+            <StartButton></StartButton>
           </div>
         </div>
         <div className="w-[50%] flex justify-center items-center">

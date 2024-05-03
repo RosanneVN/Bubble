@@ -1,3 +1,5 @@
+import StartButton from "./StartButton";
+
 export default function Features() {
   return (
     <>
@@ -16,9 +18,7 @@ export default function Features() {
               Skin Bliss today. Learn what your skin needs to be happy and
               healthy.
             </p>
-            <button className="bg-[#beb6de] py-3 px-10 rounded-3xl hover:translate-y-1 w-fit shadow-lg text-base">
-              Start now
-            </button>
+            <StartButton></StartButton>
           </div>
           <div className="w-[50%] flex flex-col gap-10">
             <div className="flex flex-row gap-5">
