@@ -26,19 +26,18 @@ export default function SideCard() {
             </button>
           </div>
           <div className="flex flex-col gap-4">
-          <p className="font-semibold">Tipo piel:</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            eos debitis repellendus provident corrupti inventore accusamus est
-            nulla modi possimus obcaecati placeat sit corporis porro, quia
-            aspernatur fugit voluptate fuga! Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Iusto, corporis pariatur aperiam
-            debitis atque ipsum alias? Tempora neque similique, laudantium
-            facilis ex nesciunt exercitationem quo magnam illum nihil dicta.
-            Consequuntur?
-          </p>
+            <p className="font-semibold">Tipo piel:</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur eos debitis repellendus provident corrupti inventore
+              accusamus est nulla modi possimus obcaecati placeat sit corporis
+              porro, quia aspernatur fugit voluptate fuga! Lorem, ipsum dolor
+              sit amet consectetur adipisicing elit. Iusto, corporis pariatur
+              aperiam debitis atque ipsum alias? Tempora neque similique,
+              laudantium facilis ex nesciunt exercitationem quo magnam illum
+              nihil dicta. Consequuntur?
+            </p>
           </div>
-          
         </section>
       </section>
     </>
