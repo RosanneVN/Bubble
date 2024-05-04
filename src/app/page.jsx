@@ -1,9 +1,10 @@
 import DangerBanner from "./components/landing/DangerBanner";
-import Features from "./components/landing/Features";
 import Hero from "./components/landing/Hero";
 import IAInfo from "./components/landing/IAInfo";
 import Nav from "./components/landing/Nav";
-
+import Screenshots from "./components/landing/Screenshots";
+import ContactUs from "./components/landing/ContactUs";
+import FeaturesSection from "./components/landing/FeaturesSection";
 
 export default function Home() {
   return (
@@ -14,7 +15,9 @@ export default function Home() {
       </div>
       <IAInfo></IAInfo>
       <DangerBanner></DangerBanner>
-      <Features></Features>
+      <FeaturesSection></FeaturesSection>
+      <Screenshots></Screenshots>
+      <ContactUs></ContactUs>
     </main>
   );
 }
