@@ -4,7 +4,7 @@ export default function IAInfo() {
       <section className="flex flex-row px-10">
         <div className="w-[50%]">
           <img
-            className="w-[450px] h-[500px]"
+            className="w-[450px] h-[500px] rounded-t-full overflow-hidden"
             src="/image/michi_dev.jpg"
             alt=""
           />
