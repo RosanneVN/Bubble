@@ -1,13 +1,15 @@
+import Image from "next/image";
 import StartButton from "./StartButton";
 
 export default function Hero() {
   return (
     <>
-      <section className="flex flex-row pt-20 px-10">
-        <div className="flex flex-col gap-10 w-[50%] justify-center">
-          <p className="text-5xl font-bold text-[#362966]">
-            Find your skincare routine.
+      <section className="flex flex-row max-lg:flex-col pt-20 max-lg:pt-10 px-10 max-lg:px-0 max-lg:gap-5">
+        <div className="flex flex-col gap-10 w-[50%] max-lg:w-full justify-center">
+          <p className="text-5xl font-bold text-[#362966] max-lg:text-4xl">
+            Find your skincare routine. 🔎
           </p>
+
           <div className="flex flex-col gap-7">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
@@ -19,12 +21,8 @@ export default function Hero() {
             <StartButton></StartButton>
           </div>
         </div>
-        <div className="w-[50%] flex justify-center items-center">
-          <img
-            className="w-[450px] h-[500px] "
-            src="/image/michi_dev.jpg"
-            alt=""
-          />
+        <div className="w-[50%] max-lg:w-full flex justify-center items-center">
+          <Image width={450} height={500} src="/image/michi_dev.jpg" alt="" />
         </div>
       </section>
     </>
