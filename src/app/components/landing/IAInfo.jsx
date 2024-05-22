@@ -1,16 +1,19 @@
+import Image from "next/image";
+
 export default function IAInfo() {
   return (
     <>
-      <section className="flex flex-row px-10">
-        <div className="w-[50%]">
-          <img
-            className="w-[450px] h-[500px] rounded-t-full overflow-hidden"
+      <section className="flex flex-row max-lg:flex-col-reverse px-10 max-lg:px-0 max-lg:gap-10">
+        <div className="w-[50%] max-lg:w-full">
+          <Image
+            width={450}
+            height={500}
             src="/image/michi_dev.jpg"
             alt=""
           />
         </div>
-        <div className=" flex flex-col w-[50%] gap-10 justify-center">
-          <p className="text-5xl font-bold text-[#362966]">
+        <div className=" flex flex-col w-[50%] max-lg:w-full gap-10 justify-center">
+          <p className="text-5xl font-bold text-[#362966] max-lg:text-4xl">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
           </p>
           <p>
