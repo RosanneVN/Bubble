@@ -22,7 +22,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="w-[50%] max-lg:w-full flex justify-center items-center">
-          <Image width={450} height={500} src="/image/michi_dev.jpg" alt="" />
+          <Image className="rounded-[20px]" width={450} height={500} src="/image/michi_dev.jpg" alt=""/>
         </div>
       </section>
     </>

@@ -5,7 +5,7 @@ export default function IAInfo() {
     <>
       <section className="flex flex-row max-lg:flex-col-reverse px-10 max-lg:px-0 max-lg:gap-10">
         <div className="w-[50%] max-lg:w-full">
-          <Image
+          <Image className="rounded-[20px]"
             width={450}
             height={500}
             src="/image/michi_dev.jpg"
